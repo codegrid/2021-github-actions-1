@@ -1,0 +1,9 @@
+name: Hello, World!を出力
+on:
+  push:
+jobs:
+  hello-world:
+    runs-on: ubuntu-latest
+    steps:
+      - name: echoによる出力
+        run: echo "Hello, World!"
